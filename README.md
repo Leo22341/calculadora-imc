@@ -3,13 +3,14 @@ Fiz esse projeto, baseado em uma tutorial no canal do youtube da Larissa Kich.
 
 <br>
 
-Nesse projeto utilizei: 
-
--HTML 
--CSS 
--JS
+Esse projeto foi criado com as seguintes tecnologias: 
 
 <br>
+
+- <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white" alt="html-logo"/>
+- <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white" alt="css-logo"/>
+- <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="js-logo"/>
+
 <br>
 
 <h2> Versão Desktop </h2>
