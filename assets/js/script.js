@@ -20,19 +20,19 @@ form.addEventListener('submit', function(event) {
     document.getElementById('infos').classList.remove('hidden'); // aqui remove a classe hidden(para aparecer o resultado somente depois de clicar no botão.)
 
     if (bmi < 18.5) {
-        description =  "Cuidado " + name + "! Você está a baixo do seu peso ideal!" // aqui tem duas funções juntas, em description tem a frase condicionada ao valor do resultado e name é o valor valor do input nome.
+        description =  `Cuidado ${name}! Você está a baixo do seu peso ideal!` // aqui tem duas funções juntas, em description tem a frase condicionada ao valor do resultado e name é o valor valor do input nome.
     } else if ( bmi >= 18.5 && bmi <= 25 ) {
-        description = "Parabéns " + name + "! Você está no seu peso ideal!";
+        description = `Parabéns ${name}! Você está no seu peso ideal!`
         value.classList.remove('attention'); // aqui remove a cor vermelha definida pra todos   
         value.classList.add('normal'); // aqui troca o vermelho pelo verde obs.: essas classes foram definidas no css.
     } else if ( bmi > 25 && bmi <= 30 ) {
-        description = "Cuidado " + name + "! Você está com sobrepeso!"
+        description = `Cuidado ${name}! Você está com sobrepeso!`
     } else if ( bmi > 30 && bmi <= 35) {
-        description = "Cuidado " + name + "! Você está com obesidade moderada"
+        description = `Cuidado ${name}! Você está com obesidade moderada`
     } else if ( bmi > 35 && bmi <= 40) {
-        description = "Muito cuidado " + name + "! Você está com obesidade severa"
+        description = `Muito cuidado ${name}! Você está com obesidade severa`
     } else {
-        description = "Muito Cuidado !!! Você está com obesidade mórbida"
+        description = `Muito Cuidado ${name}!!! Você está com obesidade mórbida`
     }
 
 
