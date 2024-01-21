@@ -4,7 +4,7 @@ const form = document.getElementById('form');
 form.addEventListener('submit', function(event) {
     // Aqui adiciona um evento de submissão ao form.
     event.preventDefault();
-    // Esse comando serve para não atualizar a página quando enviar os dados(submitar kkk).
+    // Esse comando serve para não atualizar a página quando enviar os dados.
 
     const weight = document.getElementById('weight').value; //aqui pega o valor do input peso.
     const height = document.getElementById('height').value; //aqui pega o valor do input altura.
